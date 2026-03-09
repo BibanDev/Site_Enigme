@@ -1,0 +1,16 @@
+
+h1 {
+    color: rgb(220, 213, 213);
+    font-family: 'New roman', monospace;
+    font-style: italic;
+    font-size: 36px;     
+    margin-top: 20px;    
+}
+
+body {
+            font-family: 'New roman', sans-serif;
+            color: white;
+            text-align: center;
+        
+            background-image: url( "fond.jpg" );
+}

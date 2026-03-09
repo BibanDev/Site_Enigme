@@ -1,0 +1,29 @@
+/* Styles pour le mode sombre global */
+
+:root {
+    --bg-primary: #ffffff;
+    --text-primary: #000000;
+    --bg-secondary: #f5f5f5;
+    --border-color: #ddd;
+}
+
+html.dark-mode {
+    --bg-primary: #1a1a1a;
+    --text-primary: #ffffff;
+    --bg-secondary: #2a2a2a;
+    --border-color: #444;
+}
+
+html.dark-mode body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+html.dark-mode .header {
+    background-color: var(--bg-secondary) !important;
+    border-bottom-color: var(--border-color) !important;
+}
+
+html.dark-mode button {
+    border-color: var(--border-color);
+}
